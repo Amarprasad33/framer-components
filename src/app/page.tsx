@@ -24,6 +24,7 @@ export default function Home() {
       console.log("eve", e.target);
       if (!menuBtnRef?.current.contains(e.target)) {
         if (!sideMenuRef?.current?.contains(e.target)) {
+          console.log("CLOSINGGGG")
           setSideMenuToggle(false);
         }
       }
